@@ -84,4 +84,3 @@ the diagram, which needs to be passed to the react flow component.
 - The id of each node|subject should be unique. If not, the diagram will
   not be rendered correctly. 
 - The `connects` property is used to define the edges between subjects.
-- 
