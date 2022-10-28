@@ -1,0 +1,39 @@
+{
+  "name": "syllabus-flow",
+  "version": "0.1.3",
+  "author": {
+    "email": "losteven2018@outlook.com",
+    "name": "Daniel Jaramillo"
+  },
+  "main": "./dist/index.js",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Danjar27/Economia-Malla"
+  },
+  "files": [
+    "dist"
+  ],
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "lodash": "4.17.21",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-flow-renderer": "10.3.17",
+    "uuid": "9.0.0"
+  },
+  "devDependencies": {
+    "@types/lodash": "4.14.186",
+    "@types/react": "^18.0.22",
+    "@types/react-dom": "^18.0.7",
+    "@types/uuid": "8.3.4",
+    "@vitejs/plugin-react": "^2.2.0",
+    "typescript": "^4.6.4",
+    "vite": "^3.2.0"
+  }
+}
