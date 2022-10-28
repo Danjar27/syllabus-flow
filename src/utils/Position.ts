@@ -1,4 +1,4 @@
-import { SubjectPosition } from "../../../syllabus-flow/src/subject.interface";
+import {SubjectPosition} from "../interface/subject.interface";
 
 export default class Position {
   private readonly NodeWith: number;
