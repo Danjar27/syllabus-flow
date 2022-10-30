@@ -1,4 +1,4 @@
-import {SubjectPosition} from "../interface/subject.interface";
+import {SubjectPosition} from "./interfaces";
 
 export default class Position {
   private readonly NodeWith: number;

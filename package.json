@@ -1,6 +1,6 @@
 {
   "name": "syllabus-flow",
-  "version": "1.0.1",
+  "version": "1.1.1",
   "author": {
     "email": "losteven2018@outlook.com",
     "name": "Daniel Jaramillo"
@@ -9,7 +9,7 @@
   "private": false,
   "repository": {
     "type": "git",
-    "url": "https://github.com/Danjar27/Economia-Malla"
+    "url": "https://github.com/Danjar27/syllabus-flow"
   },
   "files": [
     "dist"

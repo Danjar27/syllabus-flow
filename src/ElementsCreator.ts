@@ -1,9 +1,9 @@
-import {Node, PreNode} from "../interface/data.interface";
+import {Node, PreNode} from "./interfaces";
 import Position from "./Position";
 import {v4 as uuid} from "uuid";
 import {Edge, MarkerType} from "react-flow-renderer";
 import {CSSProperties} from "react";
-import {defaultLineStyle} from "../components/styles/defaultStyles";
+import {defaultLineStyle} from "./defaultStyles";
 
 export const connectNodes = <T>(
   allNodes: PreNode<T>[],

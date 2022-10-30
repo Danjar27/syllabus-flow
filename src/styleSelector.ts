@@ -4,8 +4,8 @@ import {
   defaultSubjectStyle,
   defaultCreditStyle,
   defaultLabelStyle,
-} from "../components/styles/defaultStyles";
-import {subjectStyle} from "../interface/subject.interface";
+} from "./defaultStyles";
+import {subjectStyle} from "./interfaces";
 
 export const styleSelector = (styles?: subjectStyle) => {
   const lineStyle = {

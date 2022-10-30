@@ -1,8 +1,7 @@
 import React, {FC} from "react";
-import {Data} from "../../interface/data.interface";
-import {subjectStyle} from "../../interface/subject.interface";
-import {styleSelector} from "../../utils/styleSelector";
-import Node from "../atoms/Node";
+import {Data, subjectStyle} from "./interfaces";
+import {styleSelector} from "./styleSelector";
+import Node from "./Node";
 
 interface Props {
   data: Data;
